@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="row">
-      <Row>
-        <Col>
-          Hello
-        </Col>
-      </Row>
+    <div className={"App mt-5"}>
+      <Home />
     </div>
   );
 }
